@@ -1,0 +1,1 @@
+{"<br/> Obseg krivocrtnega trapeza je  ","<br/> Pri kateri vrednosti \\(x\\) moramo prerezati plocevino vertikalno z ravnim rezom, da razpade na dva dela v razmerju ploscin 1:2? \\(x= \\)"}

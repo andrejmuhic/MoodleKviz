@@ -1,0 +1,1 @@
+{"Naj bo >> </br> seme=``;rand('seed',seme); a=rand(1) </br>  Plocevina ima obliko krivocrtnega trapeza, omejenega s premicami \\(x=0\\), \\(x=1\\), \\(y=0\\) in \\(y=\\exp(-a(-\\cos(\\pi/2 * x) + 1))\\)."}

@@ -1,0 +1,97 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      3679,         88]
+NotebookOptionsPosition[      3257,         72]
+NotebookOutlinePosition[      3780,         90]
+CellTagsIndexPosition[      3737,         87]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{
+    "filename", " ", "je", " ", "koren", " ", "vseh", " ", "datotek"}], ";", 
+    "\[IndentingNewLine]", 
+    RowBox[{"filename_besedilo", ".", "txt"}], ";", "\[IndentingNewLine]", 
+    RowBox[{"filename_vprasanja", ".", "txt"}], ";", "\[IndentingNewLine]", 
+    RowBox[{"filename_podatki", ".", "txt"}], ";", "\[IndentingNewLine]", 
+    RowBox[{"filename_rezultati", ".", "txt"}]}], "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"direktorij", " ", "=", " ", 
+     RowBox[{"NotebookDirectory", "[", "]"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"koren", " ", "=", " ", "\"\<kviz_lazja\>\""}], ";", 
+    "\[IndentingNewLine]", 
+    RowBox[{"filename", " ", "=", " ", 
+     RowBox[{"direktorij", " ", "<>", " ", "koren"}]}], ";"}], "*)"}], "\n", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"izhodna", " ", "datoteteka", " ", "je", " ", 
+     RowBox[{"filename", ".", "xml"}]}], ",", " ", 
+    RowBox[{"na", " ", "istem", " ", "direktoriju"}]}], "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Get", "[", 
+     RowBox[{"direktorij", " ", "<>", "\"\<mdl_izpis_matlab.m\>\""}], "]"}], 
+    ";"}], "\[IndentingNewLine]"}]}]], "Input",
+ CellChangeTimes->{{3.541928678979161*^9, 3.541928694648601*^9}, {
+   3.541928980522992*^9, 3.541929091333395*^9}, 3.541930146736634*^9, {
+   3.542431883603911*^9, 3.542431888537728*^9}, {3.542434469205298*^9, 
+   3.542434472395513*^9}, {3.542434541944573*^9, 3.54243454255003*^9}, {
+   3.542435101690566*^9, 3.542435112740869*^9}, {3.542435758043501*^9, 
+   3.542435760585217*^9}, {3.543033503177707*^9, 3.543033509073849*^9}, {
+   3.543035812594591*^9, 3.54303581271313*^9}, {3.543038206542746*^9, 
+   3.543038208973111*^9}, {3.548660104831275*^9, 3.548660106618475*^9}, {
+   3.548666688846307*^9, 3.548666691676604*^9}, {3.578348437378682*^9, 
+   3.5783484404577837`*^9}, 3.57834847735598*^9, {3.578349193227589*^9, 
+   3.5783491983284125`*^9}, {3.578406510733235*^9, 3.57840651905221*^9}, {
+   3.5795777391508627`*^9, 3.579577748735299*^9}, {3.579580337309415*^9, 
+   3.57958035638125*^9}, 3.5795804726999655`*^9, {3.6247067443454494`*^9, 
+   3.62470675123388*^9}, {3.6247078513795853`*^9, 3.6247078619713235`*^9}, {
+   3.624708111777658*^9, 3.624708120207609*^9}, {3.6247085545855494`*^9, 
+   3.6247085678142157`*^9}, {3.624708769031531*^9, 3.624708806087667*^9}, {
+   3.624709288325051*^9, 3.624709327362047*^9}, {3.6247160170985274`*^9, 
+   3.624716028296729*^9}, {3.626869163042517*^9, 3.62686916336664*^9}, {
+   3.626869217799358*^9, 3.6268692203482704`*^9}, 3.6268692522543364`*^9, {
+   3.6268693931000347`*^9, 3.6268694226866336`*^9}}]
+},
+WindowSize->{1902, 914},
+WindowMargins->{{1817, Automatic}, {Automatic, 94}},
+PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> True}},
+Magnification:>FEPrivate`If[
+  FEPrivate`Equal[FEPrivate`$VersionNumber, 6.], 2., 2. Inherited],
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (September 9, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 2696, 50, 398, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
