@@ -1,0 +1,1 @@
+{"Naj bo >> <br />seme = ``; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\\(x^2+y^2=3-k, \\quad -x^2+y^2+2xy =1.\\)Odgovori na naslednja vprasanja: <br />"}

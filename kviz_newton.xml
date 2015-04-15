@@ -1,0 +1,509 @@
+<?xml version="1.0"?>
+<quiz>
+
+
+  <question type="category">
+    <category><text><![CDATA[$course$/kategorija]]></text></category>
+  </question>
+
+<!-- question: 1  -->
+  <question type="description">
+    <name><text><![CDATA[ime]]></text></name>
+    <questiontext format="html">
+<text><![CDATA[koda]]></text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+<text></text>
+    </generalfeedback>
+    <defaultgrade>0</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+</question>
+
+  <question type="category">
+    <category><text><![CDATA[kategorija]]></text></category>
+  </question>
+
+<!--question:1-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 1]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 190; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.3408182331244924:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=4.5339819526527824e-05:1.e-10}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:2-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 2]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 46; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=0.80698754669076:1.e-6}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=0.00098502662848293752:1.e-9}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:3-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 3]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 121; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.1050474953712603:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=0.00076912625147258361:1.e-9}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:4-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 4]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 97; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=0.78084167675614813:1.e-6}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=6.7160831256770862e-07:1.e-12}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:5-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 5]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 178; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.4226092591471615:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=0.00012166600632232158:1.e-9}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:6-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 6]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 152; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=0.92990836020008028:1.e-6}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=0.00044860035785738235:1.e-9}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:7-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 7]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 91; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.3009734754953477:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=2.5837210535343215e-05:1.e-10}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:8-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 8]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 4; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.2343698045205369:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=8.5924829375052295e-06:1.e-11}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:9-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 9]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 164; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.3147727768117337:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=3.1615967760806409e-05:1.e-10}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:10-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 10]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 89; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=0.89591270647556165:1.e-6}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=0.0005711367119796279:1.e-9}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:11-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 11]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 123; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.4698148496238688:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=0.00019840992920885646:1.e-9}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:12-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 12]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 158; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.3799366168976817:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=7.4528590743388508e-05:1.e-10}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:13-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 13]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 184; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.1402654694533714:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=1.0914371512823161e-06:1.e-11}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:14-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 14]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 148; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.0435270797352336:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=0.00028883207779668656:1.e-9}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:15-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 15]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 35; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.2895637810003053:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=2.1731510510850176e-05:1.e-10}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:16-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 16]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 81; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.2736919425865534:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=1.6913158358612626e-05:1.e-10}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:17-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 17]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 187; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.194008222681856:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=3.8795001855874529e-06:1.e-11}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:18-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 18]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 183; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.1326763735559682:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=8.9048874025436093e-07:1.e-12}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:19-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 19]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 82; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.3692933003796666:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=6.541997562427415e-05:1.e-10}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:20-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 20]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 179; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=0.76635430853895414:1.e-6}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=7.8284915255603387e-07:1.e-12}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:21-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 21]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 12; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.1682271364924679:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=2.1855204684778886e-06:1.e-11}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:22-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 22]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 71; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.3112544944691931:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=3.0052516453119771e-05:1.e-10}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:23-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 23]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 163; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.3301393015909404:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=3.9230423145023668e-05:1.e-10}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:24-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 24]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 2; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=0.85973284047012766:1.e-6}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=0.0007230803886413529:1.e-9}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:25-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 25]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 28; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.2507124996135757:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=1.1504823842380305e-05:1.e-10}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:26-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 26]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 41; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.2546794196981492:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=1.2320927028599744e-05:1.e-10}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:27-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 27]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 40; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.0685990095044711:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=0.00042008851065081237:1.e-9}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:28-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 28]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 121; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.1050474953712603:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=0.00076912625147258361:1.e-9}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:29-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 29]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 54; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.3108472857322619:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=2.9875657513741764e-05:1.e-10}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:30-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 30]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 40; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.0685990095044711:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=0.00042008851065081237:1.e-9}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:31-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 31]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 3; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.1760295459350518:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=2.6160818195590981e-06:1.e-11}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:32-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 32]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 149; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.4763707407631506:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=0.00021152912711533696:1.e-9}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:33-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 33]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 89; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=0.89591270647556165:1.e-6}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=0.0005711367119796279:1.e-9}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:34-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 34]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 186; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=0.95660321602024567:1.e-6}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=0.0003658196780261402:1.e-9}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:35-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 35]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 93; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=0.84941102308224781:1.e-6}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=0.00077056007078220767:1.e-9}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:36-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 36]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 84; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=0.85293694084311267:1.e-6}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=0.0007541344620977373:1.e-9}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:37-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 37]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 169; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.3640187409107853:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=6.1247569198045066e-05:1.e-10}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:38-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 38]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 105; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.2713932139555044:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=1.6293687566271291e-05:1.e-10}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:39-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 39]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 41; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.2546794196981492:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=1.2320927028599744e-05:1.e-10}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+<!--question:40-->
+  <question type="cloze">
+    <name><text><![CDATA[ime 40]]></text></name>
+    <questiontext>
+<text><![CDATA[Naj bo >> <br />seme = 134; rand('state', seme); k=2*rand(); raz=10^-3; n=4;<br />  Resujemo sistem:\(x^2+y^2=3-k, \quad -x^2+y^2+2xy =1.\)Odgovori na naslednja vprasanja: <br />
+
+<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \(x_0=1,~y_0=1\)?{1:NUMERICAL:=1.3702622880143178:0.00001}<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? {1:NUMERICAL:=6.6210534018956786e-05:1.e-10}<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?{1:NUMERICAL:=2.2928932188134525:0.00001}
+
+]]></text>
+    </questiontext>
+    <shuffleanswers>0</shuffleanswers>
+  </question>
+</quiz>

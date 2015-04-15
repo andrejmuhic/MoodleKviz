@@ -1,0 +1,1 @@
+{"<br/> Kaksna je x komponentna priblizka za resitev sistema po n korakih Newtonove metode, za zacetni priblizek \\(x_0=1,~y_0=1\\)?","<br/> Kaksna je druga norma razlike dveh zaporednih priblizkov dobljenih z Newtonovo metodo, ko je norma razlike prvi manjsa kot raz? ","<br/>(*) Pri kateri vrednosti parametra k se krivulji dotikata?"}
