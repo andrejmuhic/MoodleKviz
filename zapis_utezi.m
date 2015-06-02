@@ -24,5 +24,4 @@ for i=1:st_vprasanj-1
     fprintf(fid,'%s%s%s','{',num2str(utezi(i,end), 17),'},');
 end
 fprintf(fid,'%s%s%s','{',num2str(utezi(end,end), 17), '}}}');
-utezi
 fclose(fid);
