@@ -6,12 +6,27 @@ end
 if nargin <= 2
     narekovaj = '"';
 end
+if ~isempty(str)
+    if str(1) == '"'
+        str(1) = [];
+    end
+end
+prazen = isempty(str);
+if ~prazen
+    if str(end) == '"'
+        str(end) = [];
+    end
+end
     str = regexprep(str,'\',znaki);
+    str = regexprep(str,'"','\\\"');
     str = close_as_Mathematica(str, narekovaj);
 end
 
 
 function str = close_as_Mathematica(str, narekovaj)
+if isempty(str)
+    return
+end
 if nargin == 1
     narekovaj = '"';
 end

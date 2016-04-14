@@ -60,7 +60,8 @@ Close[fid];
 
 (* Chop[expr]	replace all approximate real numbers in expr with magnitude less than 10^(-10) by 0 *)
 (* RELATIVE ERROR result should be less than 10^-3... *)
-RelError[r_] := If[Chop[r] == 0, 0.1, CForm[10.^Floor[Log[10,Abs[r]]-stdecimalk]], CForm[10.^Floor[Log[10,Abs[r]]-stdecimalk]]]
+RelError[r_] := StringJoin["1e", ToString[-stdecimalk]]
+(*If[Chop[r] == 0, 0.1, CForm[10.^Floor[Log[10,Abs[r]]-stdecimalk]], CForm[10.^Floor[Log[10,Abs[r]]-stdecimalk]]]*)
 (* ClozeForm from result as a pure function *)
 (*ClozeForm[number_, weight_:{1}]:="{"<>TextString[First[weight]]<>":NUMERICAL:="<>TextString[NumberForm[Internal`StringToDouble[ First[number] ] , 16]]<>":"<>TextString[RelError[Internal`StringToDouble[First[number]]]]<>"}";*)
 ClozeForm[number_, weight_:{1}]:="{"<>TextString[First[weight]]<>":NUMERICAL:="<> number<> ":"<>TextString[RelError[Internal`StringToDouble[First[number]]]]<>"}";
@@ -93,7 +94,7 @@ WriteString[FilePtr,"    <shuffleanswers>0</shuffleanswers>\n"];
 WriteString[FilePtr,"</question>\n\n"];
 (*insert questions into this category*)
 WriteString[FilePtr,"  <question type=\"category\">\n"];
-WriteString[FilePtr,"    <category><text><![CDATA[",kategorija,"]]></text></category>\n"];
+WriteString[FilePtr,"    <category><text><![CDATA["<>kategorija<>"]]></text></category>\n"];
 WriteString[FilePtr,"  </question>\n\n"];
 (*questions* /@ is Map*, @@ is Apply, @ is replace Header*)
 For[i=1,i<=Length[Podatki],i++,

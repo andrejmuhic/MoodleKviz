@@ -1,4 +1,4 @@
-function uspeh = generate_xml(koren_datoteke, mathematica_pot, stdecimalk)
+function uspeh = generate_xml(koren_datoteke, mathematica_pot, stdecimalk, kategorija)
 if nargin == 1
     mathematica_pot = 'math.exe';
     %is math.exe on system path?
@@ -16,6 +16,7 @@ if nargin == 1
         uspeh = false;
         return;
     end
+    kategorija = 'test';
 end
 if nargin >= 2
     %%correct user provide path, close it with " if needed
@@ -41,8 +42,14 @@ end
 %     end
 % end
 if nargin < 3
+    %Relativna natancnost je privzeto 10^-3
     stdecimalk = 3;
+    kategorija = 'test';
 end;    
+
+if nargin == 3
+    kategorija = 'test';
+end
 uspeh = false;
 mathematica =  [mathematica_pot, ' -noprompt -run ']; 
 MathematicaPackage = escape(which('mdl_izpis_matlab.m'), '/', '\"')
@@ -50,8 +57,9 @@ pot = escape([cd, '/'], '/', '\"')
 %pot = escape([pathstr, '/'], '/', '\"');
 %pot
 koren_datoteke = escape(koren_datoteke, '/', '\"');
+kategorija = escape(kategorija, '/', '\"');
 run_niz = [mathematica, '"', 'direktorij=',  pot '; ', 'MathematicaPackage=', MathematicaPackage, '; ', 'koren=',  koren_datoteke, ';',  ' stdecimalk', '=', int2str(stdecimalk), ';', ...
-    'filename = direktorij <> koren; Get[MathematicaPackage];', 'Exit[];', '"'];
+    ' kategorija', '=', kategorija, ';', 'filename = direktorij <> koren; Get[MathematicaPackage];', 'Exit[];', '"'];
 run_niz
 %eval(run_niz);
 [status,cmdout] = system(run_niz);
