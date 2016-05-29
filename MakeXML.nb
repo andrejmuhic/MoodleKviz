@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[      4358,        101]
-NotebookOptionsPosition[      3935,         85]
-NotebookOutlinePosition[      4459,        103]
-CellTagsIndexPosition[      4416,        100]
+NotebookDataLength[      4490,        104]
+NotebookOptionsPosition[      4072,         88]
+NotebookOutlinePosition[      4591,        106]
+CellTagsIndexPosition[      4548,        103]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -28,7 +28,9 @@ Cell[BoxData[
     RowBox[{"filename_besedilo", ".", "txt"}], ";", "\[IndentingNewLine]", 
     RowBox[{"filename_vprasanja", ".", "txt"}], ";", "\[IndentingNewLine]", 
     RowBox[{"filename_podatki", ".", "txt"}], ";", "\[IndentingNewLine]", 
-    RowBox[{"filename_rezultati", ".", "txt"}]}], "*)"}], 
+    RowBox[{
+     RowBox[{"filename_utezi", ".", "txt"}], "\[IndentingNewLine]", 
+     RowBox[{"filename_rezultati", ".", "txt"}]}]}], "*)"}], 
   "\[IndentingNewLine]", 
   RowBox[{"(*", 
    RowBox[{
@@ -81,10 +83,11 @@ naloge\\\\2016\\\\Kviz1\\\\Nal1\\\\potencna\>\""}], ";"}],
    3.6268693931000347`*^9, 3.6268694226866336`*^9}, {3.6693621529457235`*^9, 
    3.6693621693785143`*^9}, {3.6693622285304193`*^9, 3.669362228947501*^9}, {
    3.6693622699713025`*^9, 3.669362270546722*^9}, {3.6693623450108395`*^9, 
-   3.669362404419178*^9}, {3.669362573573227*^9, 3.6693625835718327`*^9}}]
+   3.669362404419178*^9}, {3.669362573573227*^9, 3.6693625835718327`*^9}, {
+   3.673349178101431*^9, 3.6733491904520183`*^9}}]
 },
-WindowSize->{1664, 914},
-WindowMargins->{{Automatic, -1792}, {72, Automatic}},
+WindowSize->{1008, 709},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> True}},
 Magnification:>FEPrivate`If[
   FEPrivate`Equal[FEPrivate`$VersionNumber, 6.], 2., 2. Inherited],
@@ -102,7 +105,7 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[557, 20, 3374, 63, 500, "Input"]
+Cell[557, 20, 3511, 66, 704, "Input"]
 }
 ]
 *)

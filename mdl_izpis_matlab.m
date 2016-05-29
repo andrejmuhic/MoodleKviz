@@ -60,11 +60,12 @@ Close[fid];
 
 (* Chop[expr]	replace all approximate real numbers in expr with magnitude less than 10^(-10) by 0 *)
 (* RELATIVE ERROR result should be less than 10^-3... *)
-RelError[r_] := StringJoin["1e", ToString[-stdecimalk]]
+Fun[rez_] := If[rez >= 1, Floor[Log10[Ceiling[rez]] // N], -Ceiling[Log10[ 1.0/rez // N ] ] ];
+RelError[r_] := StringJoin["1e", ToString[-stdecimalk+Fun[r]]];
 (*If[Chop[r] == 0, 0.1, CForm[10.^Floor[Log[10,Abs[r]]-stdecimalk]], CForm[10.^Floor[Log[10,Abs[r]]-stdecimalk]]]*)
 (* ClozeForm from result as a pure function *)
 (*ClozeForm[number_, weight_:{1}]:="{"<>TextString[First[weight]]<>":NUMERICAL:="<>TextString[NumberForm[Internal`StringToDouble[ First[number] ] , 16]]<>":"<>TextString[RelError[Internal`StringToDouble[First[number]]]]<>"}";*)
-ClozeForm[number_, weight_:{1}]:="{"<>TextString[First[weight]]<>":NUMERICAL:="<> number<> ":"<>TextString[RelError[Internal`StringToDouble[First[number]]]]<>"}";
+ClozeForm[number_, weight_:{1}]:="{"<>TextString[First[weight]]<>":NUMERICAL:="<> TextString[NumberForm[ First[number] , 16]] <> ":"<>RelError[First[number]]<>"}";
 PocistiString[s_]:=StringReplace[s,"\\\\"->"\\cr"];
 String2Form[s_,l___]:=Fold[StringReplace[#1,"``" -> #2,1]&,s,{l}];
 FileNaloge=String2Form["``.xml",filename];
