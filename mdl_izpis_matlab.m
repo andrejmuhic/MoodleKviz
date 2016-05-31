@@ -60,8 +60,11 @@ Close[fid];
 
 (* Chop[expr]	replace all approximate real numbers in expr with magnitude less than 10^(-10) by 0 *)
 (* RELATIVE ERROR result should be less than 10^-3... *)
-Fun[rez_] := If[rez >= 1, Floor[Log10[Ceiling[rez]] // N], -Ceiling[Log10[ 1.0/rez // N ] ] ];
-RelError[r_] := StringJoin["1e", ToString[-stdecimalk+Fun[r]]];
+ToDouble[x_?NumberQ]:=x
+ToDouble[x_?StringQ]:=ImportString[x, "Table"]//First//First
+
+Fun[res_] :=With[ {rez = Abs[ToDouble[res]]}, If[rez >= 1, Floor[Log10[Ceiling[rez]] // N], -Ceiling[Log10[ 1.0/rez // N ] ] ] ];
+RelError[rez_] := StringJoin["1e", ToString[-stdecimalk+Fun[rez]]];
 (*If[Chop[r] == 0, 0.1, CForm[10.^Floor[Log[10,Abs[r]]-stdecimalk]], CForm[10.^Floor[Log[10,Abs[r]]-stdecimalk]]]*)
 (* ClozeForm from result as a pure function *)
 (*ClozeForm[number_, weight_:{1}]:="{"<>TextString[First[weight]]<>":NUMERICAL:="<>TextString[NumberForm[Internal`StringToDouble[ First[number] ] , 16]]<>":"<>TextString[RelError[Internal`StringToDouble[First[number]]]]<>"}";*)
