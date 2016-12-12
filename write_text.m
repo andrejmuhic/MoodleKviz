@@ -1,6 +1,6 @@
-function uspeh = zapis_besedila(filename, QuestionText, postfix);
-%filename ... koren datoteke
-%QuestionText  ... niz za Mathematico z vprašanjem
+function uspeh = write_text(filename, QuestionText, postfix)
+%filename ... prefix of the file
+%QuestionText  ...  string for Mathematica containig questions
 %postfix  ...  privzeto '_besedilo.txt'
 if nargin == 2
     postfix = '_besedilo.txt';

@@ -1,38 +1,38 @@
-function uspeh = generate_xml(koren_datoteke, mathematica_pot, stdecimalk, kategorija)
+function sucess = generate_xml(file_prefix, mathematica_path, n_decimals, category)
 if nargin == 1
-    mathematica_pot = 'math.exe';
+    mathematica_path = 'math.exe';
     %is math.exe on system path?
-    [status,cmdout] = system([mathematica_pot, ' -noprompt -run  "Exit[];"']);
+    [status,cmdout] = system([mathematica_path, ' -noprompt -run  "Exit[];"']);
     if status == 1
         %is math.exe on matlab path?
-        if(exist(mathematica_pot, 'file') == 2)
-            mathematica_pot = ['"',which(mathematica_pot),'"'];
-            [status,cmdout] = system([mathematica_pot, ' -noprompt -run  "Exit[];"']);
+        if(exist(mathematica_path, 'file') == 2)
+            mathematica_path = ['"',which(mathematica_path),'"'];
+            [status,cmdout] = system([mathematica_path, ' -noprompt -run  "Exit[];"']);
         end
     end
     %no path for matlab.exe is available!
     if status == 1
         error('math.exe was not found, provide full path!');
-        uspeh = false;
+        sucess = false;
         return;
     end
-    kategorija = 'test';
+    category = 'test';
 end
 if nargin >= 2
     %%correct user provide path, close it with " if needed
-   if mathematica_pot(1) ~= '"'
-       mathematica_pot = ['"', mathematica_pot];
+   if mathematica_path(1) ~= '"'
+       mathematica_path = ['"', mathematica_path];
    end
-   if mathematica_pot(end) ~= '"'
-       mathematica_pot = [mathematica_pot, '"'];
+   if mathematica_path(end) ~= '"'
+       mathematica_path = [mathematica_path, '"'];
    end
    %%
    %checking if path to math.exe is valid
-   [status,cmdout] = system([mathematica_pot, ' -noprompt -run  "Exit[];"']);
+   [status,cmdout] = system([mathematica_path, ' -noprompt -run  "Exit[];"']);
    %It is not valid if status = 1!
     if status == 1
         error('math.exe was not found, provide correct full path!');
-        uspeh = false;
+        sucess = false;
         return;
     end
 end
@@ -43,26 +43,27 @@ end
 % end
 if nargin < 3
     %Relativna natancnost je privzeto 10^-3
-    stdecimalk = 3;
-    kategorija = 'test';
+    n_decimals = 3;
+    category = 'test';
 end;    
 
 if nargin == 3
-    kategorija = 'test';
+    category = 'test';
 end
-uspeh = false;
-mathematica =  [mathematica_pot, ' -noprompt -run ']; 
-MathematicaPackage = escape(which('mdl_izpis_matlab.m'), '/', '\"')
+sucess = false;
+mathematica =  [mathematica_path, ' -noprompt -run ']; 
+MathematicaPackage = escape(which('mdl_out_matlab.m'), '/', '\"')
 pot = escape([cd, '/'], '/', '\"')
 %pot = escape([pathstr, '/'], '/', '\"');
 %pot
-koren_datoteke = escape(koren_datoteke, '/', '\"');
-kategorija = escape(kategorija, '/', '\"');
-run_niz = [mathematica, '"', 'direktorij=',  pot '; ', 'MathematicaPackage=', MathematicaPackage, '; ', 'koren=',  koren_datoteke, ';',  ' stdecimalk', '=', int2str(stdecimalk), ';', ...
-    ' kategorija', '=', kategorija, ';', 'filename = direktorij <> koren; Get[MathematicaPackage];', 'Exit[];', '"'];
+file_prefix = escape(file_prefix, '/', '\"');
+category = escape(category, '/', '\"');
+run_niz = [mathematica, '"', 'direktorij=',  pot '; ', 'MathematicaPackage=', MathematicaPackage, '; ', 'koren=',  file_prefix, ';',  ' stdecimalk', '=', int2str(n_decimals), ';', ...
+    ' kategorija', '=', category, ';', 'filename = direktorij <> koren; Get[MathematicaPackage];', 'Exit[];', '"'];
+mathematica
 run_niz
 %eval(run_niz);
 [status,cmdout] = system(run_niz);
 if status == 0
-    uspeh = true;
+    sucess = true;
 end

@@ -1,18 +1,18 @@
-function uspeh = zapis_vprasanj(filename, AnswerPrompt, postfix);
-%filename ... koren datoteke
-%AnswerPrompt  ... podvprasanja kot cell array stringov {'test', 'vprasanje', ...}
-%postfix  ...  privzeto '_rezultati.txt'
+function sucess = write_questions(filename, AnswerPrompt, postfix);
+%filename ... prefix of the file
+%AnswerPrompt  ...  subquestions as cell array of strings {'test', 'questions', ...}
+%postfix  ...  defauls '_rezultati.txt'
 if nargin == 2
     postfix = '_vprasanja.txt';
 end
 fid=fopen(strcat(filename,postfix),'w');
-uspeh = fid ~= -1;
-if ~uspeh
+sucess = fid ~= -1;
+if ~sucess
     return
 end
-dol=length(AnswerPrompt);
+n_answer=length(AnswerPrompt);
 fprintf(fid,'%s','{');
-for i=1:dol-1
+for i=1:n_answer-1
     fprintf(fid,'%s%s',AnswerPrompt{i},',');
 end
 fprintf(fid,'%s%s',AnswerPrompt{end},'}');

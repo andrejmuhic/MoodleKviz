@@ -1,25 +1,25 @@
-%Funkcija nam pripravi niz, da je primeren za Mathematico
-function str = escape(str, znaki, narekovaj)
+%Prepare the string so that is suitable for mathematica
+function str = escape(str, chars, quote)
 if nargin == 1
-    znaki = '\\\';
+    chars = '\\\';
 end
 if nargin <= 2
-    narekovaj = '"';
+    quote = '"';
 end
 if ~isempty(str)
     if str(1) == '"'
         str(1) = [];
     end
 end
-prazen = isempty(str);
-if ~prazen
+is_empty = isempty(str);
+if ~is_empty
     if str(end) == '"'
         str(end) = [];
     end
 end
-    str = regexprep(str,'\',znaki);
+    str = regexprep(str,'\',chars);
     str = regexprep(str,'"','\\\"');
-    str = close_as_Mathematica(str, narekovaj);
+    str = close_as_Mathematica(str, quote);
 end
 
 
