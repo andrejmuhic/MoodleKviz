@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[      4490,        104]
-NotebookOptionsPosition[      4072,         88]
-NotebookOutlinePosition[      4591,        106]
-CellTagsIndexPosition[      4548,        103]
+NotebookDataLength[      4537,        105]
+NotebookOptionsPosition[      4122,         89]
+NotebookOutlinePosition[      4638,        107]
+CellTagsIndexPosition[      4595,        104]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -59,7 +59,7 @@ naloge\\\\2016\\\\Kviz1\\\\Nal1\\\\potencna\>\""}], ";"}],
    "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
   RowBox[{
    RowBox[{"Get", "[", 
-    RowBox[{"direktorij", " ", "<>", "\"\<mdl_izpis_matlab.m\>\""}], "]"}], 
+    RowBox[{"direktorij", " ", "<>", "\"\<mdl_out_matlab.m\>\""}], "]"}], 
    "\[IndentingNewLine]"}]}]], "Input",
  CellChangeTimes->{{3.541928678979161*^9, 3.541928694648601*^9}, {
    3.541928980522992*^9, 3.541929091333395*^9}, 3.541930146736634*^9, {
@@ -84,14 +84,15 @@ naloge\\\\2016\\\\Kviz1\\\\Nal1\\\\potencna\>\""}], ";"}],
    3.6693621693785143`*^9}, {3.6693622285304193`*^9, 3.669362228947501*^9}, {
    3.6693622699713025`*^9, 3.669362270546722*^9}, {3.6693623450108395`*^9, 
    3.669362404419178*^9}, {3.669362573573227*^9, 3.6693625835718327`*^9}, {
-   3.673349178101431*^9, 3.6733491904520183`*^9}}]
+   3.673349178101431*^9, 3.6733491904520183`*^9}, {3.690554843142614*^9, 
+   3.6905548449604397`*^9}}]
 },
 WindowSize->{1008, 709},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowMargins->{{Automatic, 157}, {130, Automatic}},
 PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> True}},
 Magnification:>FEPrivate`If[
   FEPrivate`Equal[FEPrivate`$VersionNumber, 6.], 2., 2. Inherited],
-FrontEndVersion->"10.4 for Microsoft Windows (64-bit) (February 25, 2016)",
+FrontEndVersion->"11.0 for Linux x86 (64-bit) (September 21, 2016)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -105,7 +106,7 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[557, 20, 3511, 66, 704, "Input"]
+Cell[557, 20, 3561, 67, 803, "Input"]
 }
 ]
 *)
