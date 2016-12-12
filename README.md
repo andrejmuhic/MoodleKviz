@@ -1,6 +1,6 @@
 # MoodleQuiz
 This is a collection of utility functions in Matlab that enables
-preparation of the Moodle quizes using Mathematica packaga.
+preparation of the Moodle quizes using Mathematica package.
 Mathematica should be installed for this to work.
 See MoodleQuiz/Example/simple_example.m
 
